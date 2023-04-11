@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+}
+
+body {
+  /* background-image: url(../image-mobile/avengers1.jpg); */
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  position: fixed;
+  /* display: none; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  /* margin-top: 40px; */
+  bottom: 0;
+  width: 100vw; /* viewport width */
+  height: 100vh; /* viewport height */
+  overflow-y: scroll;
+}
+
+/* section heading */
+.heading {
+  background-color: rgb(15 16 17 / 80%);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  /* border: 2px solid blue; */
+  box-shadow: 0 0 5px 0.5px rgb(159, 157, 157);
+}
+
+.heading h1 {
+  font-size: 1.9rem;
+  text-align: center;
+  /* margin: 0; */
+  background: linear-gradient(to top right, black, rgba(209, 20, 20, 0.993));
+}
+
+.search-bar {
+  width: 70%;
+  margin: auto;
+  /* margin-bottom: 2rem; */
+  /* border: 2px solid yellow; */
+  margin-top: 6rem;
+  /* margin-bottom: 1px; */
+  /* height: 100%; */
+}
+
+.search-bar h1 {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  text-align: center;
+  /* margin-bottom: 0; */
+  margin-bottom: 1rem;
+}
+
+.heading span {
+  background-color: black;
+  color: white;
+  background-size: cover;
+  letter-spacing: 2px;
+  background-position: center;
+}
+
+.keys {
+  margin-top: 42px;
+  /* border: 2px solid blue; */
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.keys .key-box {
+  width: 80px;
+  background: linear-gradient(to top right, black, rgba(209, 20, 20, 0.993));
+  border-radius: 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: 500ms;
+  margin: 0 8px;
+}
+
+.keys .key-box:hover {
+  box-shadow: 0 0 1px 1px gray;
+  transform: scale(105%);
+}
+
+.key-box a {
+  text-decoration: none;
+}
+
+.key-box a:hover {
+  text-decoration: underline;
+  color: rgb(196, 196, 196);
+}
+
+@media screen and (min-width: 460px) {
+  .heading h1 {
+    font-size: 2.5rem;
+  }
+
+  .search-bar {
+    margin-top: 7.4rem;
+    margin-bottom: 3.4rem;
+  }
+
+  .search-bar h1 {
+    font-size: 2.3rem;
+    /* letter-spacing: 3px; */
+    /* margin-bottom: -2rem; */
+  }
+
+  .keys {
+    margin-top: 58px;
+  }
+
+  .keys .key-box {
+    width: 100px;
+    height: 24px;
+    padding-top: 1px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 715px) {
+  body {
+    background-size: cover;
+    /* background-color: wheat; */
+  }
+
+  .heading h1 {
+    font-size: 3rem;
+    /* margin: 0 10px; */
+  }
+
+  .search-bar {
+    margin-top: 8rem;
+  }
+
+  .search-bar h1 {
+    font-size: 2.5rem;
+    /* letter-spacing: 3px; */
+    /* margin-bottom: 1.5rem; */
+  }
+
+  .keys {
+    margin-top: 70px;
+  }
+
+  .keys .key-box {
+    width: 110px;
+    height: 24px;
+    padding-top: 1px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-size: auto;
+    /* background-position: center; */
+  }
+
+  .search-bar {
+    margin-top: 5rem;
+  }
+
+  .container {
+    margin-top: 62px;
+  }
+
+  .keys {
+    margin-top: 10px;
+    /* border: 2px solid blue; */
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-size: cover;
+  }
+
+  .search-bar {
+    /* margin-top: 10rem; */
+    margin-bottom: 5rem;
+  }
+
+  .search-bar h1 {
+    font-size: 3rem;
+  }
+}

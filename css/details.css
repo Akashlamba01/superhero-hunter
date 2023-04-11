@@ -1,0 +1,190 @@
+/* details section/////////////////// */
+.details-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  /* border: 2px solid violet; */
+}
+
+/*heading as name */
+.details-heading {
+  width: 100%;
+  /* border: 2px solid brown; */
+}
+
+.details-heading h1 {
+  margin: auto;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  text-align: center;
+}
+
+/* deatials container////////////////////////////////// */
+.details-container {
+  width: 100%;
+  height: 100%;
+  margin: 18px auto;
+  /* border: 2px solid green; */
+}
+
+.details-picture {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  /* border: 2px solid black; */
+}
+
+.superhero-picture {
+  width: 80%;
+  height: 280px;
+  margin: auto;
+  /* margin-top: ; */
+  /* border: 2px solid blue; */
+  /* padding: 1.2rem 0; */
+}
+
+.superhero-picture img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 3px 4px rgb(26, 26, 26);
+}
+
+/* superhero details///////////////////////////////////////// */
+.superhero-details {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  padding: 10px 0;
+  /* background-color: rgba(0, 0, 0, 0.699); */
+  /* border: 2px solid red; */
+  /* margin: 1rem; */
+}
+
+/* about heroes/////////////////////// */
+.appearance {
+  width: 90%;
+  height: 100%;
+  background: linear-gradient(to top right, black, rgba(209, 20, 20, 0.993));
+  margin: 12px auto;
+  display: flex;
+  padding: 4px 10px;
+  box-shadow: 0 0 2px 3px rgba(34, 33, 33, 0.845);
+}
+
+.appearance p {
+  width: 30%;
+  color: black;
+}
+.appearance-details {
+  width: 70%;
+  height: 100%;
+  /* border: 2px solid blue; */
+}
+
+.appearance-details p {
+  width: 100%;
+  color: white;
+}
+
+@media screen and (min-width: 460px) {
+  /* details section */
+  .details-section {
+    /* border: 2px solid violet; */
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+
+  .details-heading h1 {
+    font-size: 2rem;
+  }
+
+  .superhero-picture {
+    height: 360px;
+    /* padding: 1.6rem 0; */
+  }
+
+  .appearance p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 715px) {
+  /* details section */
+  .details-section {
+    background-color: rgba(0, 0, 0, 0.564);
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    box-shadow: 0px 0 3px 3px black;
+    /* border: 2px solid violet; */
+  }
+
+  .details-heading h1 {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .details-container {
+    height: 100%;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    /* border: 2px solid orangered; */
+  }
+
+  .details-picture {
+    width: 40%;
+    border: 2px solid black;
+  }
+
+  .superhero-picture {
+    width: 100%;
+    /* height: 280px; */
+  }
+
+  .superhero-details {
+    width: 55%;
+  }
+
+  .appearance {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .details-section {
+    width: 80%;
+    margin-top: 120px;
+    margin-bottom: 30px;
+  }
+  .details-heading h1 {
+    padding-top: 1.2rem;
+    padding-bottom: 0.8rem;
+  }
+
+  .details-picture {
+    width: 40%;
+    border: 2px solid black;
+  }
+
+  .superhero-details {
+    width: 55%;
+  }
+
+  .appearance p {
+    font-size: 22px;
+  }
+
+  .superhero-picture {
+    height: 400px;
+    /* padding: 1.6rem 0; */
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .appearance p {
+    font-size: 22px;
+  }
+}

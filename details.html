@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+NSW+ACT+Foundation:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/details.css" />
+
+    <script
+      src="https://kit.fontawesome.com/8ff5f3e8e1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="container">
+      <!-- heading section -->
+      <section>
+        <div class="heading">
+          <h1>Your <span>&nbsp;Superheroes&nbsp;</span> are here</h1>
+        </div>
+        <div class="keys">
+          <div class="key-box">
+            <a href="./index.html"><i class="fa fa-home">&nbsp;</i>home</a>
+          </div>
+          <div class="key-box">
+            <a href="./favorites.html">favorites <i class="fa fa-heart"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="card">
+        <div class="details-section">
+          <div class="details-heading">
+            <h1></h1>
+          </div>
+          <div class="details-container">
+            <div class="details-picture">
+              <div class="superhero-picture">
+                <img src="" alt="" />
+              </div>
+            </div>
+            <div class="superhero-details">
+              <div class="appearance">
+                <p>appearance :</p>
+                <div class="appearance-details">
+                  <p id="about">
+                    <!-- gender:"Male", eyecolor:"Blue", haircolor:"Black",
+                    height:["6'3", '191 cm'], race:"Kryptonian", weight:"101kg" -->
+                  </p>
+                </div>
+              </div>
+
+              <div class="appearance">
+                <p>biography :</p>
+                <div class="appearance-details">
+                  <p id="biography">
+                    <!-- full-name: Clark Kent, alignment: good, place-of-birth:
+                    Krypton, publisher: DC COMICS -->
+                  </p>
+                </div>
+              </div>
+
+              <div class="appearance">
+                <p>aliases :</p>
+                <div class="appearance-details">
+                  <p id="aliases">
+                    <!-- "Clark Joseph Kent", "The Man of Steel", "the Man of
+                    Tomorrow", "the Last Son of Krypton", "Big Blue", "the
+                    Metropolis Marvel", "the Action Ace" -->
+                  </p>
+                </div>
+              </div>
+
+              <div class="appearance">
+                <p>powerstats :</p>
+                <div class="appearance-details">
+                  <p id="powerstats">
+                    <!-- combat:"85", durability:"100", intelligence:"94",
+                    power:"100", speed:"100", strength:"100" -->
+                  </p>
+                </div>
+              </div>
+
+              <div class="appearance">
+                <p>works :</p>
+                <div class="appearance-details">
+                  <p id="works">
+                    <!-- base:"Metropolis", occupation:"Reporter for the Daily Planet
+                    and novelist" -->
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./src/index.js"></script>
+  <script src="./src/details.js"></script>
+</html>
