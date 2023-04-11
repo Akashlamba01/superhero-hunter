@@ -1,14 +1,14 @@
 # superhero-hunter
 
-in this website we can find all the details of over superher
+in this website we can find all the details of over superhero
 
-if superheros are favorite then save them in favorites using the key add to fav
+if superheroes are favorite then save them in favorites using the key add to fav
 
-there are may type of super hero so you can search your hero
+there are many types of superhero so you can search your hero
 
 \*\*\*\*when you press the key the heros are fetch automaticly
 
-**\*** in the page all type of media have created
+**\*** this site is available for all divices
 
 **\*** when you refresh the page then background of page will change every time
 
