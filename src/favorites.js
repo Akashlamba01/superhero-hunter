@@ -7,6 +7,7 @@ for (let i in arr) {
   fetchData(arr[i]);
 }
 
+// fetch fav data
 async function fetchData(data) {
   let res = await fetch(
     `https://superheroapi.com/api.php/1265087454088782/${data}`
@@ -18,6 +19,7 @@ async function fetchData(data) {
 
 var heroes = document.getElementById("superheroes");
 
+// get and disply data and insert in fav.html
 function rednerList(data) {
   let div = document.createElement("div");
   div.classList.add("hero-box");
@@ -42,6 +44,7 @@ function rednerList(data) {
   heroes.append(div);
 }
 
+//remove from fav
 function removeData(data) {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] == data) {

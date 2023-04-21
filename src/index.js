@@ -8,6 +8,7 @@ if (!localStorage.getItem("favId")) {
   localStorage.setItem("favId", JSON.stringify(arr));
 }
 
+//background img for mobile of small devices
 var imgMob = [
   "avengers1.jpg",
   "avengers2.jpg",
@@ -22,6 +23,7 @@ var imgMob = [
   "xman1.webp",
 ];
 
+//bg-img for above 900 width of screen
 var img = [
   "avengers1.jpg",
   "avengers2.jpg",
@@ -90,6 +92,7 @@ function addHero(myHero) {
 
 arr = JSON.parse(localStorage.getItem("favId"));
 
+//add to fav
 function addToFav(dataId) {
   if (!arr.includes(dataId) == true) {
     arr.push(dataId);
@@ -100,6 +103,7 @@ function addToFav(dataId) {
   }
 }
 
+//fetch all data using name
 async function fetchData(heroName) {
   try {
     let response = await fetch(
@@ -115,6 +119,7 @@ async function fetchData(heroName) {
   }
 }
 
+//get all data
 function renderData() {
   try {
     superhero.innerHTML = "";
@@ -132,6 +137,7 @@ takeInput.addEventListener("keyup", (e) => {
   fetchData(target);
 });
 
+//function for print first page
 fetchData("j");
 
 function goDetailsData(heroID) {

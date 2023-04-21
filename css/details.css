@@ -84,6 +84,7 @@
   color: white;
 }
 
+/* media for 460px */
 @media screen and (min-width: 460px) {
   /* details section */
   .details-section {
@@ -106,6 +107,7 @@
   }
 }
 
+/* media for 715px */
 @media screen and (min-width: 715px) {
   /* details section */
   .details-section {
@@ -153,6 +155,7 @@
   }
 }
 
+/* media for 1024px */
 @media screen and (min-width: 1024px) {
   .details-section {
     width: 80%;
@@ -183,6 +186,7 @@
   }
 }
 
+/* media for 1200px */
 @media screen and (min-width: 1200px) {
   .appearance p {
     font-size: 22px;

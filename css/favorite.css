@@ -12,6 +12,7 @@
   margin-top: -1rem;
 } */
 
+/* media for 460px */
 @media screen and (min-width: 460px) {
   .search-bar h1 {
     /* font-size: 2.3rem;

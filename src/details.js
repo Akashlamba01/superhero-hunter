@@ -9,6 +9,7 @@ const card = document.getElementById("card");
 var dataId = JSON.parse(localStorage.getItem("heroId"));
 console.log(dataId, " data");
 
+//add to details card
 function addToCard(hero) {
   document.querySelector(".details-heading h1").innerHTML = hero.name;
 
